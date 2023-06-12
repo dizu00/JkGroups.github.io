@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+    background-color: #0f1e3e;
+    height: 8vh;
+    color: #fff;
+}
+.navlink .ic i{
+    color: #e44d23;
+}
+.navlink h3{
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+.navlink h3 span{
+   margin-left: 10px;
+}
+.navlink h3 :hover{
+    color: #e44d23;
+}
+.navlink ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    font-size: 20px;
+    gap: 10px;
+    margin-left: 700px;
+}
+.navlink button{
+    border-radius: 40px;
+    width: 100px;
+    height: 30px;
+    background-color: #e44d23;
+    margin-left: 50px;
+}
+.icon i{
+    color: #c60b0b;
+}
+.logo{
+    background-color: #e2e2e2;
+    width: 2000px;
+    height: 12vh;
+    position: fixed;
+}
+.logo-section p span{
+    font-size: 40px;
+    position: fixed;
+    top: 80px;
+    left: 220px;
+    color: #1f1e1e;
+}
+.logo-section h1{
+    font-size: 80px;
+    margin: 0 150px;
+    color: #e44d23;
+    position: absolute;
+    top: -10px;
+}
+.logo-section .nav ul{
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    gap: 30px;
+    left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.icon1 ul{
+   list-style: none;
+   position: absolute;
+   top: 20px;
+   left: 1100px;
+   display: flex;
+   font-size: 40px;
+   justify-content: center;
+   align-items: center;
+}
+.ion {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 2px 10px;
+}
+.ion1 {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+.ion2 {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+.icon ul li i :hover{
+    color: #e44d23;
+}
