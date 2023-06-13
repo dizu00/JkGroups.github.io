@@ -124,7 +124,7 @@
 
                     </ul>
 
-                    <button class="header-top-btn" name="callmex" id="catt">Call Now</button>
+                    <button class="header-top-btn" name="callmex" id="catt" onclick="vaim();">Call Now</button>
                 </div>
 
             </div>
@@ -212,15 +212,17 @@
 
     </header>
 
+    <br>
+
+
+
 
     <!--------header end bhai ok ---------->
 
-
-
-   
-    <div class="call">
-        <form >
+    <div class="call" id="hello">
+        <form>
             <h2>Get A Call In Seconds</h2>
+            <br>
             <div class="input-group">
                 <label for="name">Name</label>
                 <input typr="text" name="name" id="name" placeholder="Enter your name" required>
@@ -232,6 +234,7 @@
                 <input typr="text" name="phone" id="phone" placeholder="Enter your phone number" required>
 
                 <input class="btnss" type="submit" value="Call me">
+                <input class="btnsss" type="submit" id="close" onclick="vaim2();" value="Close">
 
             </div>
         </form>
