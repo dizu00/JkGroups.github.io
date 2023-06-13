@@ -38,6 +38,13 @@ for (let i = 0; i < navElemArr.length; i++) {
 }
 
 
+document.getElementById("catt").addEventListener("click", function () {
+  var div = document.getElementsByClassName("call");
+  div.classList.remove('call');
+  div.classList.add('callnow');
+});
+
+
 
 /**
  * header active state
