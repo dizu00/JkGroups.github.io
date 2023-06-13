@@ -42,6 +42,7 @@ for (let i = 0; i < navElemArr.length; i++) {
 function vaim(){
  
   var div = document.getElementById("hello");
+  div.scrollIntoView();
   div.style.visibility = "visible";
   
 
