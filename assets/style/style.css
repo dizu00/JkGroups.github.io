@@ -276,6 +276,7 @@ button, a { transition: var(--transition); }
 .header {
   position: relative;
   z-index: 2;
+  
 }
 
 .header-top {
@@ -289,6 +290,7 @@ button, a { transition: var(--transition); }
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
 .header-top .container { gap: 8px 20px; }
@@ -440,27 +442,29 @@ button, a { transition: var(--transition); }
 }
 
 
-
-
 /* here form call*/
 
-.callnow {
 
+.callnow {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 0%;
 }
 
 
 .call {
-
+  visibility: hidden;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 form{
@@ -534,18 +538,21 @@ input::placeholder, textarea::placeholder{
   background-color: #50E048;
 }
 
-@media(max-width:991px) {
-  body{
-    padding: 30px;
-  }
-  form{
-    padding: 50px 30px;
-    width: 100%;
-  }
-  input{
-    padding: 15px;
-  }
+.btnsss {
+  font-size: 16px;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 25px;
+  background-color: #d94c4c;
+  box-shadow: 0 0 20px rgba(254, 89, 0, 0.4);
+  cursor: pointer;
 }
+
+.btnsss:hover{
+  background-color: #e06e48;
+}
+
+
 
 
 
