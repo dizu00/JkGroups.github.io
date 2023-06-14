@@ -41,11 +41,7 @@ for (let i = 0; i < navElemArr.length; i++) {
 
 function vaim(){
  
-  var div = document.getElementById("hello");
-  var forms = document.getElementById("hello");
-  var second = document.getElementById("home");
-  second.classList.add('hero2');
-  div.style.visibility = "visible";
+  var div = document.getElementById("catt");
   forms.scrollIntoView();
 
   
