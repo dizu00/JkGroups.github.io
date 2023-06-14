@@ -42,19 +42,39 @@ for (let i = 0; i < navElemArr.length; i++) {
 function vaim(){
  
   var div = document.getElementById("hello");
-  var forms = document.getElementById("forms");
+  var forms = document.getElementById("hello");
+  var second = document.getElementById("home");
+  second.classList.add('hero2');
   div.style.visibility = "visible";
   forms.scrollIntoView();
+
   
 
+}
+
+
+function redirectToDialpad(number) {
+  var dialpadUrl = "tel:" + number;
+  window.location.href = dialpadUrl;
+}
+
+
+function dial(){
+  var button = document.getElementById("dial");
+  var phoneNumber = "8127378652"; 
+  redirectToDialpad(phoneNumber);
 }
 
 
 function vaim2(){
  
   var div = document.getElementById("hello");
+  var headerss = document.getElementById("tops");
+  var second = document.getElementById("home");
+  second.classList.remove('hero2');
+  second.classList.add('hero');
+  headerss.scr;
   div.style.visibility = "hidden";
-  
 
 }
 
