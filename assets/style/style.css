@@ -445,15 +445,6 @@ button, a { transition: var(--transition); }
 /* here form call*/
 
 
-.callnow {
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0%;
-}
-
 
 .call {
   visibility: hidden;
@@ -465,6 +456,11 @@ button, a { transition: var(--transition); }
   align-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  height: 664px;
+  background-color: rgb(246, 246, 246);
+  /*transition:all 0.9s;*/
+  position: relative;
+  top: -600px;
 }
 
 form{
@@ -554,6 +550,19 @@ input::placeholder, textarea::placeholder{
 
 
 
+.active-modal {
+    overflow: hidden;
+    transition:0.2s;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.unblur{
+    align-items:center;
+    justify-content:center;
+    visibility:visible;
+    
+}
 
 
 
@@ -565,6 +574,16 @@ input::placeholder, textarea::placeholder{
 .hero {
   background: var(--cultured-2);
   padding-block: var(--section-padding);
+
+}
+
+.hero2{
+  background: var(--cultured-2);
+  padding-block: var(--section-padding);
+  overflow: hidden;
+  transition:0.2s;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
 }
 
 .hero-content { margin-bottom: 60px; }
