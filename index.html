@@ -66,14 +66,12 @@
 
     <!--------header start ---------->
 
-
-
-    <header class="header" data-header>
+    <header class="header" id="alex" data-header>
 
         <div class="overlay" data-overlay></div>
 
         <div class="header-top">
-            <div class="container">
+            <div class="container" id="tops">
 
                 <ul class="header-top-list">
 
@@ -182,7 +180,7 @@
                 <div class="header-bottom-actions">
 
                     <button class="header-bottom-actions-btn" aria-label="Call">
-                        <ion-icon name="call-outline"></ion-icon>
+                        <ion-icon name="call-outline" onclick="dial();"></ion-icon>
 
                         <span>Call</span>
                     </button>
@@ -219,29 +217,66 @@
 
     <!--------header end bhai ok ---------->
 
-    <div class="call" id="hello">
-        <form id="forms">
-            <h2>Get A Call In Seconds</h2>
-            <br>
-            <div class="input-group">
-                <label for="name">Name</label>
-                <input typr="text" name="name" id="name" placeholder="Enter your name" required>
+ 
 
-                <label for="name">Email</label>
-                <input typr="text" name="email" id="email" placeholder="Enter your mail" required>
-
-                <label for="name">Phone No</label>
-                <input typr="text" name="phone" id="phone" placeholder="Enter your phone number" required>
-
-                <input class="btnss" type="submit" value="Call me">
-                <input class="btnsss" type="submit" id="close" onclick="vaim2();" value="Close">
-
+    <main>
+        <article>
+    
+          <!-- 
+            - #HERO
+          -->
+    
+          <section class="hero" id="home">
+            <div class="container">
+    
+              <div class="hero-content">
+    
+                <p class="hero-subtitle">
+                  <ion-icon name="home"></ion-icon>
+    
+                  <span>Real Estate Agency</span>
+                </p>
+    
+                <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
+    
+                <p class="hero-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+    
+                <button class="btn" onclick="vaim();">Make An Enquiry</button>
+    
+              </div>
+    
+              <figure class="hero-banner">
+                <img src="./assets/img/hero-banner.png" alt="Modern house model" class="w-100">
+              </figure>
+    
             </div>
-        </form>
-    </div>
-
-
-
+          </section>
+    
+    
+          <div class="call" id="hello">
+            <form id="forms">
+                <h2>Get A Call In Seconds</h2>
+                <br>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input typr="text" name="name" id="name" placeholder="Enter your name">
+    
+                    <label for="name">Email</label>
+                    <input typr="text" name="email" id="email" placeholder="Enter your mail">
+    
+                    <label for="name">Phone No</label>
+                    <input typr="text" name="phone" id="phone" placeholder="Enter your phone number">
+    
+                    <input class="btnss" type="submit" value="Call me">
+                    <input class="btnsss" type="submit" id="close" onclick="vaim2();" value="Close">
+    
+                </div>
+            </form>
+        </div>
+    
+    
 
 
 
