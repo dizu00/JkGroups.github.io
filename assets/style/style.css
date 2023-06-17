@@ -412,6 +412,7 @@ button, a { transition: var(--transition); }
 
 .header-bottom-actions {
   background: var(--white);
+  border-radius: 700vh;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -473,12 +474,23 @@ button, a { transition: var(--transition); }
   top: -600px;
 }
 
+
+/*
 form{
   padding: 50px 55px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   text-align: center;
   width: 332px;
+}*/
+
+
+form{
+  padding: 38px 42px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  /*width: 313px;*/
 }
 
 .input-group {
@@ -503,7 +515,7 @@ input,textarea{
   padding: 17px 25px;
   border-radius: 25px;
   margin-bottom: 20px;
-  background-color: #EDFFF0;
+  background-color: white;
   border: 2px solid #F0FAF1;
   color: #283629;
   outline: none;
