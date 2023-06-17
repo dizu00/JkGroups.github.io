@@ -39,6 +39,14 @@ for (let i = 0; i < navElemArr.length; i++) {
 
 
 
+let serv = document.getElementById("service");
+function goi() {
+
+    serv.scrollIntoView();
+
+}
+
+
 function vaim(){
  
   var div = document.getElementById("catt");
