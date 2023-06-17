@@ -179,25 +179,29 @@
 
                 <div class="header-bottom-actions">
 
-                    <button class="header-bottom-actions-btn" aria-label="Call">
-                        <ion-icon name="call-outline" onclick="dial();"></ion-icon>
+                    <button class="header-bottom-actions-btn" aria-label="Call" style="
+                    border-radius: 600vh;" onclick="dial();">
+                        <ion-icon name="call-outline""></ion-icon>
 
-                        <span>Call</span>
+                        <span><a href="tel:918123378653" style="color: var(--cadet);">Call</a></span>
                     </button>
 
-                    <button class="header-bottom-actions-btn" aria-label="Service">
+                    <button class="header-bottom-actions-btn" aria-label="Service" style="
+                    border-radius: 600vh;" id="serv" onclick="goi();">
                         <ion-icon name="male-outline"></ion-icon>
 
                         <span>Service</span>
                     </button>
 
-                    <button class="header-bottom-actions-btn" aria-label="Project">
+                    <button class="header-bottom-actions-btn" aria-label="Project" style="
+                    border-radius: 600vh;">
                         <ion-icon name="easel-outline"></ion-icon>
 
                         <span>Project</span>
                     </button>
 
-                    <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Menu">
+                    <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Menu" style="
+                    border-radius: 600vh;">
                         <ion-icon name="menu-outline"></ion-icon>
 
                         <span>Menu</span>
@@ -257,7 +261,7 @@
                             <input typr="text" name="phone" id="phone" placeholder="Enter your phone number">
             
                             <input class="btnss" type="submit" value="Call me">
-                            <input class="btnsss" type="submit" id="close" onclick="vaim2();" value="Close">
+                            <input class="btnsss" type="submit" id="close" onclick="vaim2();" value="Call now">
             
                         </div>
                     </form>
@@ -268,8 +272,1718 @@
           </section>
     
 
+          <div style="background-color:transparent;height:10px;"></div>
+          <div style="background-color:hsl(192, 24%, 96%);height:10px;"></div>
+
+          
+      <!-- 
+        - #PROPERTY
+      -->
+
+      <section class="property" id="property">
+        <div class="container">
+
+          <p class="section-subtitle">Properties</p>
+
+          <h2 class="h2 section-title">Featured Listings</h2>
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-1.jpg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 30000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">New Apartment Nice View</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-2.jpg" alt="Modern Apartments" class="w-100">
+                  </a>
+
+                  <div class="card-badge orange">For Sales</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 600000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Modern Apartments</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-3.jpg" alt="Comfortable Apartment" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury villa in Rego Park</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 70,000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury villa in Rego Park</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+
+          </ul>
+
+          <br>
+          <div style="background-color:hsl(0, 0%, 100%);height:10px;"></div>
+          <div style="background-color:hsl(0, 0%, 100%);height:10px;"></div>
+
+
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-1.jpg" alt="New Apartment Nice View" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 30000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">New Apartment Nice View</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-2.jpg" alt="Modern Apartments" class="w-100">
+                  </a>
+
+                  <div class="card-badge orange">For Sales</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 600000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Modern Apartments</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-3.jpg" alt="Comfortable Apartment" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury villa in Rego Park</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/img/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">For Rent</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Allahabad Civil Lines</address>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+
+                      <span>4</span>
+                    </button>
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+
+                      <span>2</span>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Rs 70,000</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Luxury villa in Rego Park</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <ion-icon name="square-outline"></ion-icon>
+
+                      <span>Square Ft</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="./assets/img/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="service">
+        <div class="container">
+
+          <p class="section-subtitle">Our Services</p>
+
+          <h2 class="h2 section-title">Our Main Focus</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-1.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-2.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-3.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
           <div style="background-color:hsl(192, 24%, 96%);height:10px;"></div>
           <div style="background-color:hsl(192, 24%, 96%);height:10px;"></div>
+
+
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-1.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-2.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-3.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div style="background-color:hsl(192, 24%, 96%);height:10px;"></div>
+          <div style="background-color:hsl(192, 24%, 96%);height:10px;"></div>
+
+
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-1.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-2.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/img/service-3.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a home</a>
+                </h3>
+
+                <p class="card-text">
+                  over 1 million+ homes for sale available on the website, we can match you with a house you will want
+                  to call home.
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/img/JK GROUPS-light.png" alt="Homeverse logo">
+          </a>
+
+          <p class="section-text">
+            JKGroup is a real estate company that has been providing all types of financing services, such as loans for homes, bikes, and more, since 2011.
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>Allahabad Civil </address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+918127575872" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>+918127575872</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:jkgroroups@gmail.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>jkgroroups@gmail.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Properties</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Locations Map</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Services</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Loan</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Properties</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Commercial</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Insurance</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Promotional Offers</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Customer Care</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Buy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Report</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">24/7 Support</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Call us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">JKGROUPS</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
 
 
 
