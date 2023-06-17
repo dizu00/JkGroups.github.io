@@ -18,6 +18,7 @@
     <title>JKGroups - Find your dream Place</title>
     <link rel="shortcut icon" href="./fav.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/style-prefix.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -63,8 +64,94 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script-->
 
 
+      <div class="modal" data-modal>
+
+        <div class="modal-close-overlay" data-modal-overlay></div>
+    
+        <div class="modal-content">
+    
+          <button class="modal-close-btn" data-modal-close>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+    
+          <div class="newsletter-img">
+            <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+          </div>
+    
+          <div class="newsletter">
+    
+            <form action="#">
+    
+              <div class="newsletter-header">
+    
+                <h3 class="newsletter-title">JK GROUPS</h3>
+    
+                <p class="newsletter-desc">
+                  Submit the email and phone number and our executive will reach you.
+                </p>
+    
+              </div>
+    
+              <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+              <input type="text" name="email" class="email-field" placeholder="Enter Phone Number" required>
+
+              <button type="submit" class="btn-newsletter">Submit</button>
+    
+            </form>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    
+    
+    
+    
+      <!--
+        - NOTIFICATION TOAST
+      -->
+    
+      <div class="notification-toast" data-toast>
+    
+        <button class="toast-close-btn" data-toast-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+    
+        <div class="toast-banner">
+          <img src="./assets/img/property-2.jpg" alt="Rose Gold Earrings" width="80" height="70">
+        </div>
+    
+        <div class="toast-detail">
+    
+          <p class="toast-message">
+            Someone in new just bought
+          </p>
+    
+          <p class="toast-title">
+            New Future Plot
+          </p>
+    
+          <p class="toast-meta">
+            <time datetime="PT2M">2 Minutes</time> ago
+          </p>
+    
+        </div>
+    
+      </div>
+    
+    
+    
+    
+
 
     <!--------header start ---------->
+
+
+
+
+
 
     <header class="header" id="alex" data-header>
 
@@ -1788,6 +1875,33 @@
 
 
 
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Looking for a dream home?</h2>
+
+              <p class="card-text">We can help you realize your dream of a new home</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Explore Properties</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
 
 
 
