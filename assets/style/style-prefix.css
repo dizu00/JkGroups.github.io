@@ -356,3 +356,28 @@
 }
 
 
+
+@keyframes ritikborder-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ritikborder {
+  position: relative;
+}
+
+.ritikborder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #f14141;
+  border-radius: 45%;
+  width: 100%;
+  height: 100%;
+  animation: ritikborder-animation 2s linear infinite;
+}
