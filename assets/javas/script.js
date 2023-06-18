@@ -56,6 +56,16 @@ function vaim(){
 
 }
 
+function upps(){
+ 
+  var div = document.getElementById("alex");
+  forms.scrollIntoView();
+
+  
+
+}
+
+
 
 function redirectToDialpad(number) {
   var dialpadUrl = "tel:" + number;
@@ -93,7 +103,6 @@ window.addEventListener("scroll", function () {
   window.scrollY >= 400 ? header.classList.add("active")
     : header.classList.remove("active");
 }); 
-
 
 
 
