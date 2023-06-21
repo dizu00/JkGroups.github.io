@@ -24,6 +24,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
+
 </head>
 
 <body>
@@ -259,7 +260,7 @@
               </li>
 
               <li>
-                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                <a href="#contact" class="navbar-link"  onclick="op();">Contact</a>
               </li>
 
             </ul>
@@ -341,7 +342,7 @@
 
           <figure class="hero-banner">
             <div class="w-100">
-              <form>
+              <form id="fil">
                 <h2>Our executive will get back to you.</h2>
                 <br>
                 <div class="input-group">
@@ -1690,8 +1691,6 @@
 
           </ul>
 
-            <br>
-
           <ul class="service-list">
             <div class="ho service-list">
               <div class="ritikborder service-item">
@@ -1727,9 +1726,165 @@
 
 
 
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/img/about-banner-1.png" alt="House interior">
+
+            <img src="./assets/img/about-banner-2.jpg" alt="House interior" class="abs-img">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">WE ARE JKGROUPS</h2>
+
+            <p class="about-text">
+              Unlock the door to your dreams with our reliable specialist services
+              Since 2011, we have been providing some of the best services such as home loans, bike loans, financing, insurance, duplex houses, and plots from Prayagraj.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Smart Loan service</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Insurance</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="wine-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Ploting & House</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Complete 24/7 Security</p>
+              </li>
+
+            </ul>
+
+            <p class="callout">
+              "Open the Pathway to Your Dreams with Our Trusted Specialist Services - Unlock a World of Possibilities Since 2011!"
+            </p>
+
+            <a href="#service" class="btn">Our Services</a>
+
+          </div>
+
+        </div>
+      </section>
 
 
 
+
+
+<style>
+
+.news {
+  padding: 4.8px 0 9.6px 0;
+  text-align: center;
+}
+.news-heading {
+  font-size: 44px;
+  line-height: 1.4;
+
+  color: #333;
+}
+.news p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+  line-height: 1.8;
+}
+
+input[type="email"] {
+  display: inline-block;
+  width: 60%;
+  padding: 18px 36px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 70px;
+  margin-top: 18px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06);
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 3;
+}
+
+.bt {
+  margin-left: -160px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 20px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  background-color: #48b774;
+  color: #fff;
+}
+
+
+  
+</style>
+
+<div class="container"> 
+<section class="news-letter" id="News-letter">
+  <div class="container">
+  <div class="news ">
+
+      <h1 class="news-heading">Subscribe To Get The Latest <br> News About Us</h1>
+      <p class="des how-de">Get the Latest news about digital Marketing to Your Pocket, drop your <br> email below to
+        get daliy update about us</p>
+
+        <form>
+          <h2>Drop your email below to get daliy update about us.</h2>
+          <br>
+          <div class="input-group">
+            <label for="name">Email</label>
+            <input typr="text" name="email" id="email" placeholder="Enter your mail">
+
+            <input class="des how-de btnsss" type="submit" id="close" onclick="vaim2();" value="Subscribe">
+
+          </div>
+        </form>
+
+      </form>
+    </div>
+  </div>
+
+</section>
+</div>
 
 
       <!-- 
@@ -1840,7 +1995,7 @@
                 </li>
 
                 <li>
-                  <a href="#" class="footer-link">Contact us</a>
+                  <a href="#" class="footer-link" onclick="op();">Contact us</a>
                 </li>
 
               </ul>
@@ -1904,7 +2059,7 @@
                 </li>
 
                 <li>
-                  <a href="#" class="footer-link">Contact us</a>
+                  <a href="#" class="footer-link" onclick="op();">Contact us</a>
                 </li>
 
               </ul>
